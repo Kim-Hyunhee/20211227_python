@@ -1,5 +1,6 @@
 # 오버로딩의 개념에 대한 설명을 위한 클래스
 # 라이브러리를 활용해 동작하도록
+from multipledispatch import dispatch 
 
 class OverloadingTest:
     

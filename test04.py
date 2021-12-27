@@ -41,3 +41,53 @@ birth_year = int( input('출생 년도 입력 : ') )
 age = 2021 - birth_year + 1
 
 print(f'나이 : {age}세')
+
+# 4. float() 체험 / round() 체험
+
+height = float(input('키 입력 : '))
+
+# ex. 키 179.7 => 사실상 180임
+
+print(f'당신의 키는 사실상 {round(height)}cm 입니다.')
+
+
+
+result = 0
+for i in range(1, 50):
+    result += 0.1
+    
+print(result)
+
+
+# user_info = []
+# user_info.append('김현희')
+# user_info.append(1995)
+# user_info.append(True)
+
+# user_info2 = []
+# user_info2.append(2010)
+# user_info2.append(False)
+# user_info2.append('김학생')
+
+# 두 사용자의 이름을 꺼내보자 => list / tuple 모두 넣어준 순서 (index) 가 자료를 꺼낼 때 중요한 기준
+# user_info[0]
+# user_info2[2]
+
+# 'name' 이름표로 이름을 꺼낸다면? 순서에 관계없이 명확한 코딩
+
+user_info1 = {}  # dictionary : 이름표 - 실제값 쌍으로 저장하는 자료구조 Key- Value
+
+user_info1['name'] = '김현희'
+user_info1['birth_year'] = 1995
+user_info1['is_female'] = True
+
+user_info2 = {}
+user_info2['birth_year'] = 2010
+user_info2['is_female'] = False
+user_info2['name'] = '김학생'
+
+
+# dictionary는 순서는 중요하지 않다. => 이름표가 어떤 게 붙어있느냐?
+
+print(user_info1['name'])
+print(user_info2['name'])           
