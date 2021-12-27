@@ -62,3 +62,5 @@ cow1.run()
 
 horse1 = Horse(2019, True)
 horse1.run()
+
+cat1.play_with_human('김현희')
