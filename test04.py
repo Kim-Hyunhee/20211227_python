@@ -32,3 +32,12 @@ print( hex(id(dog2)) )
 
 dog1.print_dog_info()
 dog2.print_dog_info()
+
+
+# 3. input / int 체험
+
+birth_year = int( input('출생 년도 입력 : ') )
+
+age = 2021 - birth_year + 1
+
+print(f'나이 : {age}세')
