@@ -27,3 +27,18 @@ print_main_info()
 # 메쏘드 호출 예시
 # 특징 : 변수이름.메쏘드() 형태로 사용함.
 dog1.print_dog_info()
+
+# dog2를 비워두자
+
+dog2 = None
+print(dog2)
+
+# del(dog2)
+# print(dog2)
+
+num1 = 10
+if num1 ==10:
+    num2 = 20
+    print(num2)
+
+print(num2)
