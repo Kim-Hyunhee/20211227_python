@@ -1,5 +1,7 @@
 from cat import Cat
 from dog import Dog
+from cow import Cow
+from horse import Horse
 
 
 dog1 = Dog('해피', 2016, '푸들')  # 변수를 만들어줘야 객체를 불러올 수 있음.
@@ -54,3 +56,9 @@ cat1 = Cat(2014, True)
 
 # Cat은 동물의 일종 => 동물이 하는 기능은 전부 수행 가능
 cat1.run()
+
+cow1 = Cow(2020, False)
+cow1.run()
+
+horse1 = Horse(2019, True)
+horse1.run()

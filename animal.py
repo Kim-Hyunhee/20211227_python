@@ -4,4 +4,4 @@ class Animal:
         self.is_male = is_male
         
     def run(self):
-        print('동물이 뛰어다님니다.')
+        print('동물이 뛰어다닙니다.')
