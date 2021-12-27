@@ -3,6 +3,7 @@ from datas.dog import Dog
 from datas.cow import Cow
 from datas.horse import Horse
 from datas.test.test import Mytest
+from datas.test.test_module import test01, test02
 
 
 dog1 = Dog('해피', 2016, '푸들')  # 변수를 만들어줘야 객체를 불러올 수 있음.
@@ -66,3 +67,8 @@ horse1.run()
 
 cat1.play_with_human()
 cat1.run()
+
+
+
+test01()
+test02()
