@@ -1,4 +1,4 @@
-from animal import Animal
+from datas.animal import Animal
 
 class Cat(Animal):
 
