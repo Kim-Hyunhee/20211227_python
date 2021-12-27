@@ -1,3 +1,4 @@
+from datas.dog import Dog
 # 파이썬 제공 내장 함수들 체험
 # 내장 함수 : import 없이 진행
 
@@ -12,3 +13,18 @@ for i, name in enumerate(student_names):
     
 print('======================')
 
+# 2. id / hex 체험
+
+dog1 = Dog('바둑이', 2015, '믹스견')
+dog2 = Dog('아롱이', 2010, '치와와')
+
+# 변수와 객체가 나눠져있다. 체험
+
+# dog1과 dog2가 같은 객체를 바라보게 된다.
+dog1 = dog2
+
+# dog1의 이름을 해피로 바꿈
+dog1.name = 'govl'
+
+dog1.print_dog_info()
+dog2.print_dog_info()
