@@ -4,11 +4,13 @@
 class OverloadingTest:
     
     # 두 개의 숫자를 더할 때 사용
+    @dispatch(int, int)
     def add_num(self, num1, num2):
         print('두 개의 숫자 더하기')
         return num1 + num2
     
     # 세 개의 숫자를 더할 때 사용
+    @dispatch(int, int, int)
     def add_num(self, num1, num2, num3):
         print('세 개의 숫자 더하기')
         return num1 + num2 + num3
