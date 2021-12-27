@@ -26,9 +26,9 @@ dog1 = dog2
 # dog1의 이름을 해피로 바꿈
 dog1.name = '해피'
 
-# 두 개의 변수가 연결된 주소?
-print( id(dog1) )
-print( id(dog2) )
+# 두 개의 변수가 연결된 주소? => 둘 다 같은 주소로 변경
+print( hex(id(dog1)) )  # hex ( 숫자 )  => 16진수로는 어떻게 되는지 변환 : 메모리 주소를 컴퓨터가 다루는 양식으로 확인할 때
+print( hex(id(dog2)) )
 
 dog1.print_dog_info()
 dog2.print_dog_info()
