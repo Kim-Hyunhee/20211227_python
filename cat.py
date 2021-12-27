@@ -13,3 +13,8 @@ class Cat(Animal):
         # 원래 동물로써 뛰어다니는 기능도 같이 실행
         super().run()
         print('고양이가 뛰어다닙니다.')
+        
+    # 사람과 놀아주는 기능 추가 작성
+    def plat_with_human(self):
+        print('고양이가 사람과 놀아주는 두 번째 메쏘드')
+    
