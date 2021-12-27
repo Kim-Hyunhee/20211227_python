@@ -24,7 +24,11 @@ dog2 = Dog('아롱이', 2010, '치와와')
 dog1 = dog2
 
 # dog1의 이름을 해피로 바꿈
-dog1.name = 'govl'
+dog1.name = '해피'
+
+# 두 개의 변수가 연결된 주소?
+print( id(dog1) )
+print( id(dog2) )
 
 dog1.print_dog_info()
 dog2.print_dog_info()
